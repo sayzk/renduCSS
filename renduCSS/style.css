@@ -1,1 +1,69 @@
 
+*{
+    font-family: "DM Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-image: url("Assets/image-header.png");
+    height: 100vh;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+body{
+    color: white;
+    background-color: black;
+    margin: 0;
+}
+nav{
+    
+    text-align: end;
+    display: inline; 
+   
+    
+}
+nav li{
+    display: inline-block;
+   
+
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    text-transform: uppercase;
+
+}
+.reglage{
+    width: 100%;
+
+}
+nav ul {
+    display: inline-block;
+    float: right;
+} 
+
+.container{
+    width:40%;
+    margin: auto;
+}
+h1{
+    font-size: 100px;
+
+}
+span{
+    font-size: 50px;
+}
+.btn{
+    background-color: white;
+    padding: 15px 32px;
+    border-radius: 8px;  
+}
+.btn2{
+    background-color: black;
+    color: white;
+}
+

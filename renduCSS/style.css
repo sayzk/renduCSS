@@ -1,9 +1,11 @@
 * {
     font-family: "DM Sans", sans-serif;
 }
+
 a {
     text-decoration: none;
 }
+
 header {
     background-image: url("Assets/image-header.png");
     height: 100vh;
@@ -61,9 +63,6 @@ h1 {
 
 }
 
-h2 {
-    with
-}
 
 span {
     font-size: 50px;
@@ -85,13 +84,89 @@ span {
     color: black;
 }
 
-#presentation{
+#presentation {
     background-color: noir;
 }
-.sectionpadding{
+
+.sectionpadding {
     padding-block: 120px;
     padding-inline: 24px;
 }
-.container{
+
+.container {
     max-width: 1080px;
+}
+
+#lineup {
+    font-weight: bold;
+    text-transform: uppercase;
+
+    h2 {
+        margin-bottom: center;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    ul {
+
+        margin-bottom: 50px;
+        list-style: none;
+        font-size: 28px;
+    }
+
+    li {
+        border-bottom: 1px dashed;
+
+        padding: 8px 0;
+    }
+}
+
+.billet {
+    text-align: center;
+}
+
+.containerButton {
+    text-align: center;
+}
+
+.logo {
+    background-image: url(Assets/banniere-logo.png);
+    padding: 118px;
+    height: 200px;
+    background-repeat: no-repeat;
+
+}
+
+#contacternous {
+    form {
+       
+        margin: 0 auto;
+        width: 400px;
+        
+        padding: 1em;
+        border: 1px solid #ccc;
+        border-radius: 1em;
+    }
+   
+    label {
+       
+        display: inline-block;
+        width: 90px;
+        text-align: right;
+    }
+
+    input,
+    textarea {
+        width: 300px;
+        box-sizing: border-box;
+        border: 1px solid;
+    }
+    input:focus,
+    
+    textarea {
+        vertical-align: top;
+        height: 5em;
+        resize: vertical;
+    }
+    
 }
